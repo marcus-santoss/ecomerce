@@ -1,0 +1,13 @@
+### List All Products
+GET http://127.0.0.1:8000/api/products/
+Content-Type: application/json
+
+###
+### List Reserved Products
+GET http://127.0.0.1:8000/api/customer/8/reservations
+Content-Type: application/json
+
+###
+### Make a Reserve
+POST http://127.0.0.1:8000/api/products/5/reserve/
+Content-Type: application/json
