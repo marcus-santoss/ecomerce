@@ -11,3 +11,5 @@ Content-Type: application/json
 ### Make a Reserve
 POST http://127.0.0.1:8000/api/products/5/reserve/
 Content-Type: application/json
+
+

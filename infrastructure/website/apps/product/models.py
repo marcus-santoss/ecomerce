@@ -9,7 +9,7 @@ PRODUCT_STATUS_CHOICES = (
 
 class Product(models.Model):
     name = models.CharField(max_length=255, unique=True)
-    price = models.DecimalField(max_digits=5, decimal_places=2)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
     description = models.TextField()
     status = models.CharField(
         max_length=30, choices=PRODUCT_STATUS_CHOICES, default="PRODUCT_AVAILABLE"
